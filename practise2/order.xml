@@ -1,0 +1,35 @@
+<?xml version ="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="order.xsl"?>
+<!--<order xmlns="https://www.w3schools.com"-->
+               <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+               <!--xsi:schemaLocation="https://www.w3schools.com schema.xsd">-->
+<order>
+<shipping country = "Belarus">
+    <firstname>Egor</firstname>
+    <lastname>Karavaev</lastname>
+    <street>Odintsova</street>
+    <city>Minsk</city>
+    <zip>220136</zip>
+</shipping>
+<bill country ="Russia">
+    <firstname>Ivan</firstname>
+    <lastname>Ivanov</lastname>
+    <street>Lobanka</street>
+    <city>Moscow</city>
+    <zip>120045</zip>
+</bill>
+<itemslist >
+    <item id="78423">
+        <prodname>book</prodname>
+        <quantity>1</quantity>
+        <price>100</price>
+        <orderdate>2017-10-10</orderdate>
+    </item>
+    <item id="12009">
+        <prodname>sneakers</prodname>
+        <quantity>2</quantity>
+        <price>200</price>
+        <orderdate>2017-10-22</orderdate>
+    </item>
+</itemslist>
+</order>
